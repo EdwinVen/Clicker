@@ -1,0 +1,6 @@
+C:\dev\workspace\C#\ConsoleClicker\ConsoleClicker\bin\Debug\ConsoleClicker.exe.config
+C:\dev\workspace\C#\ConsoleClicker\ConsoleClicker\bin\Debug\ConsoleClicker.exe
+C:\dev\workspace\C#\ConsoleClicker\ConsoleClicker\bin\Debug\ConsoleClicker.pdb
+C:\dev\workspace\C#\ConsoleClicker\ConsoleClicker\obj\Debug\ConsoleClicker.csprojResolveAssemblyReference.cache
+C:\dev\workspace\C#\ConsoleClicker\ConsoleClicker\obj\Debug\ConsoleClicker.exe
+C:\dev\workspace\C#\ConsoleClicker\ConsoleClicker\obj\Debug\ConsoleClicker.pdb
