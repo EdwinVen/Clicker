@@ -53,41 +53,41 @@ namespace ConsoleClicker {
             mouse_event(MOUSEEVENTF_LEFTUP, X, Y, 0, 0);*/
 
             #region drawSquare
-            //mouse_event(MOUSEEVENTF_LEFTDOWN, X, Y, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTDOWN, X, Y, 0, 0);
 
-            //int delay = 100;
-            //int length = 50;
-            //while (length > 0) {
-            //    for (int i = 0; i < length; i++) {
-            //        Thread.Sleep(delay);
-            //        mouse_event(MOUSEEVENTF_MOVE, 5, 0, 0, 0);
-            //    }
-            //    length -= 5;
-            //    delay -= 5;
+            int delay = 100;
+            int length = 50;
+            while (length > 0) {
+                for (int i = 0; i < length; i++) {
+                    Thread.Sleep(delay);
+                    mouse_event(MOUSEEVENTF_MOVE, 5, 0, 0, 0);
+                }
+                length -= 5;
+                delay -= 5;
 
-            //    for (int i = 0; i < length; i++) {
-            //        Thread.Sleep(delay);
-            //        mouse_event(MOUSEEVENTF_MOVE, 0, 5, 0, 0);
-            //    }
-            //    delay -= 5;
+                for (int i = 0; i < length; i++) {
+                    Thread.Sleep(delay);
+                    mouse_event(MOUSEEVENTF_MOVE, 0, 5, 0, 0);
+                }
+                delay -= 5;
 
-            //    for (int i = 0; i < length; i++) {
-            //        Thread.Sleep(delay);
-            //        mouse_event(MOUSEEVENTF_MOVE, -5, 0, 0, 0);
-            //    }
-            //    length -= 5;
-            //    delay -= 5;
+                for (int i = 0; i < length; i++) {
+                    Thread.Sleep(delay);
+                    mouse_event(MOUSEEVENTF_MOVE, -5, 0, 0, 0);
+                }
+                length -= 5;
+                delay -= 5;
 
-            //    for (int i = 0; i < length; i++) {
-            //        Thread.Sleep(delay);
-            //        mouse_event(MOUSEEVENTF_MOVE, 0, -5, 0, 0);
-            //    }
-            //    delay -= 5;
-            //}
+                for (int i = 0; i < length; i++) {
+                    Thread.Sleep(delay);
+                    mouse_event(MOUSEEVENTF_MOVE, 0, -5, 0, 0);
+                }
+                delay -= 5;
+            }
 
-            ////mouse_event(MOUSEEVENTF_MOVE, 50, 50, 0, 0);
+            //mouse_event(MOUSEEVENTF_MOVE, 50, 50, 0, 0);
 
-            //mouse_event(MOUSEEVENTF_LEFTUP, X, Y, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTUP, X, Y, 0, 0);
 
             #endregion drawSquare
 
@@ -137,32 +137,32 @@ namespace ConsoleClicker {
 
             #region writeE
 
-            List<Click> clickList = new List<Click>();
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTDOWN, 1000, 1000, 500));
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 0, 100, 500));
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTUP, 0, 0, 500));
+            //List<Click> clickList = new List<Click>();
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTDOWN, 1000, 1000, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 0, 100, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTUP, 0, 0, 500));
 
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 0, -100, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 0, -100, 500));
 
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTDOWN, 0, 0, 500));
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 50, 0, 500));
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTUP, 0, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTDOWN, 0, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 50, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTUP, 0, 0, 500));
 
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, -50, 50, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, -50, 50, 500));
 
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTDOWN, 0, 0, 500));
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 50, 0, 500));
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTUP, 0, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTDOWN, 0, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 50, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTUP, 0, 0, 500));
 
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, -50, 50, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, -50, 50, 500));
 
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTDOWN, 0, 0, 500));
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 50, 0, 500));
-            clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTUP, 0, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTDOWN, 0, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_MOVE, 50, 0, 500));
+            //clickList.Add(new Click(ClickAction.MOUSEEVENTF_LEFTUP, 0, 0, 500));
 
-            foreach (Click c in clickList) {
-                c.Perform();
-            }
+            //foreach (Click c in clickList) {
+            //    c.Perform();
+            //}
 
 
             #endregion writeE
